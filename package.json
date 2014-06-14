@@ -1,0 +1,26 @@
+{
+  "name": "grunt-wr2conv",
+  "version": "0.1.0",
+  "description": "wr2conv for grunt",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/yuzy/grunt-wr2conv"
+	},
+	"bugs": {
+		"url": "git://github.com/yuzy/grunt-wr2conv/issues"
+	},
+  "keywords": [
+    "gruntplugin",
+    "WebRelease2",
+    "WR2"
+  ],
+  "author": "Yuzy",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "dependencies": {
+    "chalk": "~0.4.0",
+    "wr2conv": "^0.1.0"
+  }
+}
