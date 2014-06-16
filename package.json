@@ -21,6 +21,6 @@
   },
   "dependencies": {
     "chalk": "~0.4.0",
-    "wr2conv": "^0.1.0"
+    "wr2conv": "*"
   }
 }
