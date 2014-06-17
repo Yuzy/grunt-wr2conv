@@ -10,13 +10,16 @@
 ```
 
 ## Usage
-```
+```js
 module.exports = function(grunt){
 
 	var pkg = grunt.file.readJSON('package.json');
 
 	grunt.initConfig({
 		wr2conv: {
+			options: {
+				checkResource: 'tmpl/report.txt'
+			},
 			dev1:{
 				files: {
 					'tmpl/css/': ['css/*.css'],
@@ -24,6 +27,10 @@ module.exports = function(grunt){
 				}
 			},
 			dev2:{
+				options: {
+					dry : true,
+					checkResource: false
+				},
 				src: ['css/*.css'],
 				dest: 'tmpl/css/'
 			}
