@@ -7,6 +7,7 @@ module.exports = function(grunt){
 	var chalk = require('chalk');
 
 	grunt.registerMultiTask('wr2conv', 'convert data for WebRelease2', function(){
+		wr2conv.clearResourceInfo();
 		var report_file;
 		var global_options = this.options();
 		this.files.forEach(function(f){
