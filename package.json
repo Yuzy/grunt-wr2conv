@@ -17,11 +17,11 @@
   "author": "Yuzy",
   "license": "MIT",
   "devDependencies": {
-    "grunt": "~0.4.0",
-    "grunt-release": "~0.7.0"
+    "grunt": "~0.4.5",
+    "grunt-release": "~0.12.0"
   },
   "dependencies": {
-    "chalk": "~0.4.0",
-    "wr2conv": "~0.2.1"
+    "chalk": "~1.0.0",
+    "wr2conv": "~0.2.4"
   }
 }
