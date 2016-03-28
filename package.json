@@ -18,10 +18,10 @@
   "license": "MIT",
   "devDependencies": {
     "grunt": "~0.4.5",
-    "grunt-release": "~0.12.0"
+    "grunt-release": "~0.13.0"
   },
   "dependencies": {
-    "chalk": "~1.0.0",
-    "wr2conv": "~0.2.4"
+    "chalk": "~1.1.1",
+    "wr2conv": "~0.3.0"
   }
 }
