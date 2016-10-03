@@ -37,8 +37,8 @@ module.exports = function(grunt){
 			if('checkResource' in global_options && global_options.checkResource){
 				report_file = global_options.checkResource;
 			}
-			if('wr2ver' in global_options && global_options.wr2var){
-				wr2conv.setOptions({wr2ver: global_options.wr2var});
+			if('wr2ver' in global_options && global_options.wr2ver){
+				wr2conv.setOptions({wr2ver: global_options.wr2ver});
 			}
 
 			var finished = valid.map(function(file){
